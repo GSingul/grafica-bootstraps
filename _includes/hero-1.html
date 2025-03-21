@@ -1,4 +1,4 @@
-    <div class="container-fluid my-4 p-0">
+<div class="container-fluid my-4 p-0">
         <div class="background-home d-flex justify-content-center align-items-center" style="min-height: 820px; width: 100%;">
         <div class="container" style="max-width: 1450px; height: 800px;">
             <div class="row h-100 p-4">
@@ -9,7 +9,7 @@
                             <p>Benvenuti nella nuova frontiera dell'apprendimento online!</p>
                             <p>Gsingul ti offre lezioni interattive e coinvolgenti integrate con la realtà virtuale, per un'esperienza formativa davvero immersiva. Esplora corsi personalizzati, partecipa attivamente alle classi virtuali e interagisci in tempo reale con docenti e compagni.</p>
                             <h3>Accedi per iscriverti</h3>
-                            <div th:replace="~{fragments/actions :: link(@{/login}, 'Accedi o Registrati')}"></div>
+                            <a href="{{ '/login' | relative_url }}">Accedi o Registrati</a>
 
                          </div>
                 </div>
@@ -23,4 +23,4 @@
         </div>
         </div>
 
-    </div>
+</div>
