@@ -7,7 +7,7 @@ body {
 .background-home {
     min-height: 820px;
     width: 100%;
-    background: url("{{ '/images/Background_home.jpg' | relative_url }}") no-repeat center center;
+    background: url("{{ '/assets/images/Background_home.jpg' | relative_url }}") no-repeat center center;
     background-size: cover;
 }
 
