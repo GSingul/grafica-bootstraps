@@ -3,6 +3,8 @@ layout: layout
 title: Home
 ---
 
-# Welcome to my website
+{% include hero-1.html %}
+{% include hero-2.html %}
+{% include hero-3.html %}
 
-This is the homepage content.
+<p>Some additional content for the Pro page.</p>
