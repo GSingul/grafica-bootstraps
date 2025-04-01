@@ -1,0 +1,4 @@
+# _config.yml
+include:
+  - assets  # Include la cartella assets nel sito generato
+exclude:
