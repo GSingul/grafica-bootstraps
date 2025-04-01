@@ -1,13 +1,5 @@
 # _config.yml
 include:
-  - assets  # Include la cartella assets nel sito generato
+  - images
+  - css
 exclude:
-defaults:
-  - scope:
-      path: "assets/images"
-    values:
-      permalink: "/images/:basename:output_ext"
-  - scope:
-      path: "assets/css"
-    values:
-      permalink: "/css/:basename:output_ext"
