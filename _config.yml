@@ -1,6 +1,0 @@
-# _config.yml
-baseurl: ""
-include:
-  - images
-  - css
-exclude:
